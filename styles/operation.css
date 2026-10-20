@@ -3,3 +3,8 @@
 [hidden]{display:none!important}.sheet-body input[type=search]{box-sizing:border-box}.form-field select{max-width:58%;border:0;background:#fff;color:#555;min-height:30px}.form-field.inline:has(.file-list){flex-wrap:wrap}.form-field .file-list:empty{display:none}.picker-value:not(.filled){color:#aaa}
 
 .disclosure-measure{padding:16px 0;border-bottom:1px solid #d2d9e5}.disclosure-measure p{line-height:1.7;margin:0 0 16px;white-space:pre-wrap}
+
+.disclosure-add{margin:16px 0 0;font-size:16px}.disclosure-measure .outline{border-radius:24px;background:#0656ff;border:0;color:#fff;padding:6px 24px;font-size:14px}.disclosure-measure .danger{background:#e51d18}.form-page:has(.disclosure-add),.form-page:has(.disclosure-add) .form-section{background:#f8f9ff}
+
+/* 评审标记：相对基线系统新增或调整的字段。 */
+.review-highlight{background:#fff3ad!important;border:1px solid #edbd3b!important;border-radius:3px;padding:12px!important}.review-highlight dt,.review-highlight .field-title,.ticket-line.review-highlight>span{color:#695011}.ticket-line.review-highlight{margin-left:-6px;margin-right:-6px}.form-field.review-highlight{margin-top:12px;margin-bottom:12px}
