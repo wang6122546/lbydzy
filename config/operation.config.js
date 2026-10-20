@@ -288,7 +288,7 @@ export const operationTypes=[
       {
         "name": "一级",
         "description": "不存在特殊危险因素的情况下，在距坠落基准面2米≤h≤5米，有可能坠落的高处进行的作业。（顺明，蓝色字体对应右边图片，可迭代增加）",
-        "default": false
+        "default": true
       },
       {
         "name": "二级",
@@ -302,8 +302,8 @@ export const operationTypes=[
       },
       {
         "name": "四级",
-        "description": "不存在特殊危险因素的情况下，在距坠落基准面h＞30米，有可能坠落的高处进行的作业。或在强风、浓雾等恶劣气候下，或抢救等特殊情况下进行的高处作业。",
-        "default": true
+        "description": "不存在特殊危险因素的情况下，在距坠落基准面h＞30米，有可能坠落的高处进行的作业。",
+        "default": false
       }
     ],
     "extra": [
